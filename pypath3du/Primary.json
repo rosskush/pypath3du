@@ -1,0 +1,10 @@
+{
+	"FLOW_MODEL_TYPE" : {
+		"MODFLOW": {
+			 "GSF_FILE" : {
+				 "TYPE" : "GSF_V.1.1.0"
+				 "FILE_NAME" : "mp3du.gsf"
+			},
+			"OUTPUT_PRECISION" : "SINGLE",
+			"IFACE" : [ {"WEL" : 0}, {"CHD" : 7}],
+			"THREAD_COUNT" : 3
